@@ -4,8 +4,8 @@ namespace Norgul\Xmpp\Xml\Stanzas;
 
 class Presence extends Stanza
 {
-    const PRIORITY_UPPER_BOUND = 127;
-    const PRIORITY_LOWER_BOUND = -128;
+    final public const PRIORITY_UPPER_BOUND = 127;
+    final public const PRIORITY_LOWER_BOUND = -128;
 
     public function subscribe(string $to)
     {
@@ -36,7 +36,6 @@ class Presence extends Stanza
     /**
      * Set priority to current resource by default, or optional other resource tied to the
      * current username
-     * @param int $value
      * @param string|null $forResource
      */
     public function setPriority(int $value, string $forResource = null)

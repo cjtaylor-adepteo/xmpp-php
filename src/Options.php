@@ -96,7 +96,6 @@ class Options
     /**
      * Try to assign a resource if it exists. If bare JID is forwarded, this will default to your username
      *
-     * @param string $username
      * @return Options
      */
     public function setUsername(string $username): Options

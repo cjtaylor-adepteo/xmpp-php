@@ -15,7 +15,6 @@ class Socket
 
     /**
      * Socket constructor.
-     * @param Options $options
      * @throws DeadSocket
      */
     public function __construct(Options $options)

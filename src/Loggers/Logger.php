@@ -8,8 +8,8 @@ class Logger implements Loggable
 {
     public $log;
 
-    const LOG_FOLDER = "logs";
-    const LOG_FILE = "xmpp.log";
+    final public const LOG_FOLDER = "logs";
+    final public const LOG_FILE = "xmpp.log";
 
     public function __construct()
     {
@@ -53,8 +53,8 @@ class Logger implements Loggable
     protected function writeToFile($file, $message)
     {
         try {
-            fwrite($file, $message);
-        } catch (Exception $e) {
+            fwrite($file, (string) $message);
+        } catch (Exception) {
             // silent fail
         }
     }
