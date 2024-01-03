@@ -1,7 +1,7 @@
 <?php
 
-use Norgul\Xmpp\AuthTypes\Plain;
-use Norgul\Xmpp\Options;
+use Cjtaylor\Xmpp\AuthTypes\Plain;
+use Cjtaylor\Xmpp\Options;
 use PHPUnit\Framework\TestCase;
 
 class AuthPlainTest extends TestCase

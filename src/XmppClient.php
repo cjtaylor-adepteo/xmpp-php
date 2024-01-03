@@ -1,13 +1,13 @@
 <?php
 
-namespace Norgul\Xmpp;
+namespace Cjtaylor\Xmpp;
 
-use Norgul\Xmpp\Exceptions\StreamError;
-use Norgul\Xmpp\Xml\Stanzas\Auth;
-use Norgul\Xmpp\Xml\Stanzas\Iq;
-use Norgul\Xmpp\Xml\Stanzas\Message;
-use Norgul\Xmpp\Xml\Stanzas\Presence;
-use Norgul\Xmpp\Xml\Xml;
+use Cjtaylor\Xmpp\Exceptions\StreamError;
+use Cjtaylor\Xmpp\Xml\Stanzas\Auth;
+use Cjtaylor\Xmpp\Xml\Stanzas\Iq;
+use Cjtaylor\Xmpp\Xml\Stanzas\Message;
+use Cjtaylor\Xmpp\Xml\Stanzas\Presence;
+use Cjtaylor\Xmpp\Xml\Xml;
 
 class XmppClient
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Norgul\Xmpp\AuthTypes;
+namespace Cjtaylor\Xmpp\AuthTypes;
 
 class DigestMD5 extends Authentication
 {

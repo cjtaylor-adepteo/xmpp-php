@@ -1,6 +1,6 @@
 <?php
 
-use Norgul\Xmpp\Buffers\Response;
+use Cjtaylor\Xmpp\Buffers\Response;
 use PHPUnit\Framework\TestCase;
 
 class ResponseBufferTest extends TestCase

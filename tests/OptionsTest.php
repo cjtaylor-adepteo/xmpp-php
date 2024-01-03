@@ -1,6 +1,6 @@
 <?php
 
-use Norgul\Xmpp\Options;
+use Cjtaylor\Xmpp\Options;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\InvalidArgumentException;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Norgul\Xmpp;
+namespace Cjtaylor\Xmpp;
 
 use Exception;
-use Norgul\Xmpp\Buffers\Response;
-use Norgul\Xmpp\Exceptions\DeadSocket;
+use Cjtaylor\Xmpp\Buffers\Response;
+use Cjtaylor\Xmpp\Exceptions\DeadSocket;
 
 class Socket
 {

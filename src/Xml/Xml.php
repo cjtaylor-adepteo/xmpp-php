@@ -1,8 +1,8 @@
 <?php
 
-namespace Norgul\Xmpp\Xml;
+namespace Cjtaylor\Xmpp\Xml;
 
-use Norgul\Xmpp\Exceptions\StreamError;
+use Cjtaylor\Xmpp\Exceptions\StreamError;
 
 trait Xml
 {
@@ -39,7 +39,7 @@ trait Xml
     {
         preg_match_all("#(<$tag.*?>.*?<\/$tag>)#si", (string) $rawResponse, $matched);
 
-        return count($matched) <= 1 ? [] : array_map(fn($match) => @simplexml_load_string((string) $match), $matched[1]);
+        return count($matched) <= 1 ? [] : array_map(fn ($match) => @simplexml_load_string((string) $match), $matched[1]);
     }
 
     public static function parseFeatures($xml)

@@ -1,7 +1,7 @@
 <?php
 
-use Norgul\Xmpp\AuthTypes\DigestMD5;
-use Norgul\Xmpp\Options;
+use Cjtaylor\Xmpp\AuthTypes\DigestMD5;
+use Cjtaylor\Xmpp\Options;
 use PHPUnit\Framework\TestCase;
 
 class DigestMD5Test extends TestCase

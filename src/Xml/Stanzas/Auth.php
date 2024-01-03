@@ -1,8 +1,8 @@
 <?php
 
-namespace Norgul\Xmpp\Xml\Stanzas;
+namespace Cjtaylor\Xmpp\Xml\Stanzas;
 
-use Norgul\Xmpp\AuthTypes\Authenticable;
+use Cjtaylor\Xmpp\AuthTypes\Authenticable;
 
 class Auth extends Stanza
 {

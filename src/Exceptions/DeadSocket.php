@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Norgul\Xmpp\Exceptions;
+namespace Cjtaylor\Xmpp\Exceptions;
 
 use Exception;
 

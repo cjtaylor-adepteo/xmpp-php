@@ -1,11 +1,11 @@
 <?php
 
-namespace Norgul\Xmpp;
+namespace Cjtaylor\Xmpp;
 
-use Norgul\Xmpp\AuthTypes\Authenticable;
-use Norgul\Xmpp\AuthTypes\Plain;
-use Norgul\Xmpp\Loggers\Loggable;
-use Norgul\Xmpp\Loggers\Logger;
+use Cjtaylor\Xmpp\AuthTypes\Authenticable;
+use Cjtaylor\Xmpp\AuthTypes\Plain;
+use Cjtaylor\Xmpp\Loggers\Loggable;
+use Cjtaylor\Xmpp\Loggers\Logger;
 use Psr\Log\InvalidArgumentException;
 
 class Options

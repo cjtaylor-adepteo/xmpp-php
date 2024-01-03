@@ -1,6 +1,6 @@
 <?php
 
-use Norgul\Xmpp\Xml\Xml;
+use Cjtaylor\Xmpp\Xml\Xml;
 use PHPUnit\Framework\TestCase;
 
 class XmlTest extends TestCase

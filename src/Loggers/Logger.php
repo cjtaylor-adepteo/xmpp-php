@@ -1,6 +1,6 @@
 <?php
 
-namespace Norgul\Xmpp\Loggers;
+namespace Cjtaylor\Xmpp\Loggers;
 
 use Exception;
 

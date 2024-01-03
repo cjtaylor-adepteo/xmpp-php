@@ -1,6 +1,6 @@
 <?php
 
-namespace Norgul\Xmpp\Xml\Stanzas;
+namespace Cjtaylor\Xmpp\Xml\Stanzas;
 
 class Presence extends Stanza
 {

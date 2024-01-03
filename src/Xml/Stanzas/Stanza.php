@@ -1,9 +1,9 @@
 <?php
 
-namespace Norgul\Xmpp\Xml\Stanzas;
+namespace Cjtaylor\Xmpp\Xml\Stanzas;
 
-use Norgul\Xmpp\Socket;
-use Norgul\Xmpp\Xml\Xml;
+use Cjtaylor\Xmpp\Socket;
+use Cjtaylor\Xmpp\Xml\Xml;
 
 abstract class Stanza
 {

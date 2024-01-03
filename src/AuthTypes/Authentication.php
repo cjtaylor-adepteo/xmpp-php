@@ -1,9 +1,9 @@
 <?php
 
-namespace Norgul\Xmpp\AuthTypes;
+namespace Cjtaylor\Xmpp\AuthTypes;
 
-use Norgul\Xmpp\Options;
-use Norgul\Xmpp\Xml\Xml;
+use Cjtaylor\Xmpp\Options;
+use Cjtaylor\Xmpp\Xml\Xml;
 
 abstract class Authentication implements Authenticable
 {

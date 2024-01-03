@@ -1,6 +1,6 @@
 <?php
 
-namespace Norgul\Xmpp\Buffers;
+namespace Cjtaylor\Xmpp\Buffers;
 
 class Response implements Buffer
 {
