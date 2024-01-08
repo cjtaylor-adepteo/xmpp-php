@@ -106,9 +106,11 @@ class XmppClient
 
     protected function initSession()
     {
-        if (session_status() === PHP_SESSION_NONE) {
-            session_id(uniqid());
-            session_start();
+        if (!headers_sent($filename, $linenum)) {
+            if (session_status() === PHP_SESSION_NONE) {
+                // session_id(uniqid());
+                session_start();
+            }
         }
     }
 
